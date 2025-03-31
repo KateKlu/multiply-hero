@@ -1,18 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=M+PLUS+Rounded+1c:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=M+PLUS+Rounded+1c:wght@900&display=swap');
 @import 'tailwindcss';
 
 :root {
    font-family: 'Dosis', system-ui;
    line-height: 1;
    font-optical-sizing: auto;
-   font-weight: 500;
-   font-style: normal;
 }
 
 h1 {
    font-family: 'M PLUS Rounded 1c', sans-serif;
-   font-weight: 900;
-   font-style: bold;
 }
 
 .stroke-text {

@@ -6,28 +6,32 @@ import profileIcon from '../assets/icons/profile.png';
 import fixIcon from '../assets/icons/fix.png';
 import trophyIcon from '../assets/icons/trophy.png';
 import loginIcon from '../assets/icons/login.png';
-import logoIcon from '../assets/icons/hero.png';
+import logoIcon from '../assets/heroes/boy.png';
 
 import '../index.css';
 
 export default function HomePage() {
    return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-[#0275E6] text-[#FDF7CF] p-6">
-         <div className="flex row mb-3 items-center">
-            <h1 className=" item-left uppercase stroke-text flex-3/5 pl-2">
-               <span className="text-4xl text-[#EEC520] leading-none  block">
+         <div className="w-full max-w-sm flex flex-wrap mb-3 items-center">
+            <h1 className=" item-left uppercase stroke-text font-black flex-3/5">
+               <span className="text-[2.75rem] text-[#EEC520] leading-none block">
                   Multiply
                </span>
-               <span className="text-6xl leading-none  block">Hero</span>
+               <span className="text-[4rem] leading-none block">Hero</span>
             </h1>
-            <img src={logoIcon} alt="hero logo" className="flex-2/5 size-2/5" />
+            <img
+               src={logoIcon}
+               alt="hero logo"
+               className="flex-2/5 w-2/5 max-w-sm"
+            />
          </div>
 
          <div className="w-full max-w-sm space-y-4 ">
-            <Link to="/train-play">
+            <Link to="/learn-play">
                <MenuButton
                   icon={playIcon}
-                  text="Train & Play"
+                  text="Learn & Play"
                   bgColor="#FB8313"
                />
             </Link>

@@ -1,8 +1,26 @@
-:root {
-   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-   line-height: 1.5;
-   font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=M+PLUS+Rounded+1c:wght@900&display=swap');
+@import 'tailwindcss';
 
+:root {
+   font-family: 'Dosis', system-ui;
+   line-height: 1;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+}
+
+h1 {
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+   font-weight: 900;
+   font-style: bold;
+}
+
+.stroke-text {
+   filter: drop-shadow(2px 2px #3d2604) drop-shadow(2px -2px #3d2604)
+      drop-shadow(-2px 2px #3d2604) drop-shadow(-2px -2px #3d2604);
+}
+
+/*
    color-scheme: light dark;
    color: rgba(255, 255, 255, 0.87);
    background-color: #242424;
@@ -65,4 +83,4 @@ button:focus-visible {
    button {
       background-color: #f9f9f9;
    }
-}
+} */

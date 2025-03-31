@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import MenuButton from '../components/MenuButton';
 
 import playIcon from '../assets/icons/play.png';
@@ -22,25 +23,39 @@ export default function HomePage() {
             <img src={logoIcon} alt="hero logo" className="flex-2/5 size-2/5" />
          </div>
 
-         <div className="w-full max-w-sm space-y-4">
-            <MenuButton icon={playIcon} text="Train & Play" bgColor="#FB8313" />
-            <MenuButton
-               icon={profileIcon}
-               text="My Profile"
-               bgColor="#1CBC50"
-            />
-            <MenuButton icon={fixIcon} text="Fix It!" bgColor="#F86837" />
-            <MenuButton
-               icon={trophyIcon}
-               text="Leaderboard"
-               bgColor="#4F5DDC"
-            />
-            <MenuButton
-               icon={loginIcon}
-               text="Login"
-               bgColor="#F9CA14"
-               textColor="#063F74"
-            />
+         <div className="w-full max-w-sm space-y-4 ">
+            <Link to="/train-play">
+               <MenuButton
+                  icon={playIcon}
+                  text="Train & Play"
+                  bgColor="#FB8313"
+               />
+            </Link>
+            <Link to="/my-profile">
+               <MenuButton
+                  icon={profileIcon}
+                  text="My Profile"
+                  bgColor="#1CBC50"
+               />
+            </Link>
+            <Link to="/fix-it">
+               <MenuButton icon={fixIcon} text="Fix It!" bgColor="#F86837" />
+            </Link>
+            <Link to="/leaderboard">
+               <MenuButton
+                  icon={trophyIcon}
+                  text="Leaderboard"
+                  bgColor="#4F5DDC"
+               />
+            </Link>
+            <Link to="/login">
+               <MenuButton
+                  icon={loginIcon}
+                  text="Login"
+                  bgColor="#F9CA14"
+                  textColor="#063F74"
+               />
+            </Link>
          </div>
       </div>
    );

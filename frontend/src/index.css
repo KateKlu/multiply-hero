@@ -7,7 +7,8 @@
    font-optical-sizing: auto;
 }
 
-h1 {
+h1,
+.numberButton {
    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 

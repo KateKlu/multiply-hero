@@ -13,7 +13,7 @@ import '../index.css';
 export default function HomePage() {
    return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-[#0275E6] text-[#FDF7CF] p-6">
-         <div className="w-full max-w-sm flex flex-wrap mb-3 items-center">
+         <div className="w-full max-w-sm flex mb-3 items-center">
             <h1 className=" item-left uppercase stroke-text font-black flex-3/5">
                <span className="text-[2.75rem] text-[#EEC520] leading-none block">
                   Multiply
@@ -23,7 +23,7 @@ export default function HomePage() {
             <img
                src={logoIcon}
                alt="hero logo"
-               className="flex-2/5 w-2/5 max-w-sm"
+               className="flex-2/5 max-w-2/5"
             />
          </div>
 

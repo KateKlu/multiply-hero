@@ -15,7 +15,7 @@ export const RoutesConfig = (
       <Route path="/learn-play" element={<LearnPlayPage />} />
       <Route path="/learn-play/learn" element={<LearnPage />} />
       <Route
-         path="/learn-play/learn/multiply/:number"
+         path="/learn-play/learn/:number"
          element={<MultiplyPage />}
       />
       <Route path="/learn-play/play" element={<PlayPage />} />

@@ -30,7 +30,7 @@ export default function LearnPage() {
                   return (
                      <Link
                         key={btnNumber}
-                        to={`/learn-play/learn/multiply/${btnNumber}`}
+                        to={`/learn-play/learn/${btnNumber}`}
                      >
                         <NumberButton text={btnNumber} bgColor={color} />
                      </Link>

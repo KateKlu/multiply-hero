@@ -19,12 +19,11 @@ export default function MultiplyPage() {
             <PageTitle part1="Multiplying by" part2={` ${num}`} />
          </div>
 
-         <div className="w-full max-w-sm space-y-2 text-center text-xl font-semibold">
+         <div className="w-full max-w-sm space-y-2">
             {examples.map((example, index) => (
                <div
                   key={index}
-                  className="bg-[#FDF7CF] text-[#0275E6] text-4xl rounded-2xl py-1 shadow-md"
-                  //   className="stroke-text py-2 text-4xl"
+                  className="bg-[#FDF7CF] text-[#0275E6] text-4xl font-semibold text-center rounded-2xl py-1 shadow-md"
                >
                   {example}
                </div>

@@ -24,7 +24,7 @@ export default function LearnPage() {
          </div>
 
          <div className="w-full max-w-sm space-y-4">
-            <div className="mb-7">
+            <div className="mb-7 mPlusFont">
                {btnColors.map((color, index) => {
                   const btnNumber = (index + 2).toString();
                   return (
@@ -32,7 +32,11 @@ export default function LearnPage() {
                         key={btnNumber}
                         to={`/learn-play/learn/${btnNumber}`}
                      >
-                        <NumberButton text={btnNumber} bgColor={color} />
+                        <NumberButton
+                           text={btnNumber}
+                           bgColor={color}
+                           withStroke
+                        />
                      </Link>
                   );
                })}

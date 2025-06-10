@@ -23,7 +23,7 @@ export default function MultiplyPage() {
             {examples.map((example, index) => (
                <div
                   key={index}
-                  className="bg-[#FDF7CF] text-[#0275E6] text-4xl font-semibold text-center rounded-2xl py-1 shadow-md"
+                  className="bg-[#FDF7CF] text-[#0275E6] mPlusFont text-3xl font-semibold text-center rounded-2xl py-1 shadow-md"
                >
                   {example}
                </div>

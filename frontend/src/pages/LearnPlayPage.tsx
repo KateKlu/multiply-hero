@@ -5,7 +5,6 @@ import PageTitle from '../components/PageTitle';
 import backIcon from '../assets/icons/back.png';
 import learnIcon from '../assets/icons/learning.png';
 import playIcon from '../assets/icons/play.png';
-// import trainIcon from '../assets/icons/test.png';
 
 import heroImage from '../assets/heroes/girl.png';
 

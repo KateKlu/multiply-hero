@@ -6,7 +6,7 @@ import profileIcon from '../assets/icons/profile.png';
 import fixIcon from '../assets/icons/fix.png';
 import trophyIcon from '../assets/icons/trophy.png';
 import loginIcon from '../assets/icons/login.png';
-import logoIcon from '../assets/heroes/boy.png';
+import heroImage from '../assets/heroes/boy.png';
 
 import '../index.css';
 
@@ -21,8 +21,8 @@ export default function HomePage() {
                <span className="text-[4rem] leading-none block">Hero</span>
             </h1>
             <img
-               src={logoIcon}
-               alt="hero logo"
+               src={heroImage}
+               alt="Superboy"
                className="flex-2/5 max-w-2/5"
             />
          </div>

@@ -15,7 +15,7 @@ export default function LearnPlayPage() {
             <PageTitle part1="Learn &" part2=" Play" />
             <img
                src={heroImage}
-               alt="Superheroes"
+               alt="Supergirl"
                className="w-2/3 max-w-sm mt-4"
             />
          </div>

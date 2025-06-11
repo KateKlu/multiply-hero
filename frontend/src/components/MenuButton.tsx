@@ -3,6 +3,7 @@ type MenuButtonProps = {
    text: string;
    bgColor: string;
    textColor?: string;
+   onClick?: () => void;
 };
 
 export default function MenuButton({
@@ -10,9 +11,11 @@ export default function MenuButton({
    text,
    bgColor,
    textColor = '#FDF7CF',
+   onClick,
 }: MenuButtonProps) {
    return (
       <button
+         onClick={onClick}
          className="w-full flex items-center justify-start gap-5 text-3xl font-extrabold tracking-wider px-5 py-1 rounded-3xl border-4 border-[#3D2604] mb-3 shadow-md transition hover:opacity-80 cursor-pointer"
          style={{
             backgroundColor: bgColor,

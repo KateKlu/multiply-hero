@@ -69,7 +69,11 @@ export default function PlayPage() {
          </div>
 
          <div className="w-full max-w-sm mt-8 space-y-4">
-            <Link to="/learn-play/play/training">
+            <Link
+               to={`/learn-play/play/${selected
+                  .sort((a, b) => Number(a) - Number(b))
+                  .join(',')}`}
+            >
                <MenuButton icon={playIcon} text="Start" bgColor="#FB8313" />
             </Link>
             <Link to="/learn-play">

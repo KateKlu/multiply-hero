@@ -23,8 +23,8 @@ export default function LearnPage() {
             <PageTitle part1="Select a" part2=" number" />
          </div>
 
-         <div className="w-full max-w-sm space-y-4">
-            <div className="mb-7 mPlusFont">
+         <div className="w-full max-w-sm space-y-4 flex flex-col items-center">
+            <div className="w-10/12 mb-7 mPlusFont">
                {btnColors.map((color, index) => {
                   const btnNumber = (index + 2).toString();
                   return (

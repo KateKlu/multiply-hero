@@ -16,7 +16,7 @@ export default function NumberButton({
    return (
       <button
          onClick={onClick}
-         className="w-10/12 block mx-auto  text-3xl font-extrabold tracking-wider py-1 rounded-3xl border-4 border-[#3D2604] mb-1 shadow-md transition hover:opacity-80 cursor-pointer"
+         className="w-full block mx-auto  text-3xl font-extrabold tracking-wider py-1 rounded-3xl border-4 border-[#3D2604] mb-1 shadow-md transition hover:opacity-80 cursor-pointer"
          style={{
             backgroundColor: bgColor,
             color: textColor,

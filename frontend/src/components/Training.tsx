@@ -19,7 +19,7 @@ const Training = () => {
          setFeedback('');
          setUserAnswer('');
       } catch (error) {
-         console.log('Error fetching exercice', error);
+         console.log('Error fetching exercise', error);
       }
    };
 
